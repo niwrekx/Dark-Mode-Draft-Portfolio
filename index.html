@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <script src="https://kit.fontawesome.com/7921b78a6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio 2</title>   
+ </head>
+    
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ri-close-line" onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-fill" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Kerwin</span></h1>
+                <h4>Web Designer</h4>                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            </div>
+
+        </div>
+    </div>
+<!--------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/header.png">
+                </div>
+
+                <div class="about-col-2" >
+                     <h1 class="sub-title">About Me</h1>  
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Elearning Development</span><br>Articulate Storyline / Articulate Rise</li>
+                            <li><span>Graphics Design</span><br>Logo/ Banner Ads/Course Brochures/Infographics</li>
+                            <li><span>Photos, Vectors and Videos Editing</span><br>Basic Manipulation/Revision</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2012 - June 2023</span><br>eBSI Export Academy - Ireland (Content Developer)</li>
+                            <li><span>Jan 2021 - Aug 2022</span><br>WatchExpress-Australia(Shopify Administrator)</li>
+                            <li><span>Jan 2020 - Oct 2021</span><br>Sage Education - Australia(Content Developer)</li>
+                            <li><span>Sept 2020 - June 2021</span><br>Mediboost - Australia(Wordpress Web Designer)</li>
+                            <li><span>Nov 2018 - Aug 2020</span><br>SeLearn2Grow LTD– Hongkong(Instrutional Designer)</li>
+                        </ul>
+                    </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2000 - 2004</span><br>B.S. Computer Engineering(AMA University)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------Services------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>  
+            <div class="services-list">
+                <div>
+                    <i class="ri-book-mark-line icon"></i>
+                    <h2>Elearning</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn More</a>
+                </div> 
+
+                <div>
+                    <i class="ri-code-box-line icon"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn More</a>
+                </div> 
+
+                 <div>
+                    <i class="ri-paint-brush-line icon"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#">Learn More</a>
+                </div> 
+            </div>    
+        </div>   
+    </div>
+<!--------Portfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Title 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href="#"><i class="ri-external-link-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Title 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href="#"><i class="ri-external-link-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Title 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href="#"><i class="ri-external-link-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More >></a>
+        </div>
+    </div>
+
+
+<!--------Contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">                
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> niwrekxdigitalprintshop@gmail.com</p>
+                    <p><i class="fa-brands fa-skype"></i> niwrek_30484</p>
+                    <p><i class="fa-solid fa-phone"></i> +63 916 219 2934 (Whatsapp)</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>  
+                    <span id="msg"></span>                  
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Niwrekx. All Rights Reserved.</p>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+<script>    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyqaULMXYsJVa_eNsC2P10TWiIThCJlFtf8FaqVTXYLidlXuwOzdBdx33FAssq0UxzV/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+         msg.innerHTML = "Message Sent Successfully!"
+         setTimeout(function(){
+               msg.innerHTML = "" 
+         },5000)
+         form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
